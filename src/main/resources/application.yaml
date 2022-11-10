@@ -1,0 +1,14 @@
+spring:
+  datasource:
+     url: jdbc:postgresql://localhost:5432/iplstat
+     username: dbuser
+     password: dbuser
+     driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    ddl-auto: update
+    properties:
+      hibernate:
+         format_sql: true
+jwt:
+  secret: supersecret
